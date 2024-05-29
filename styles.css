@@ -1,5 +1,5 @@
 /* CSS stylesheet */
-
+/* overall page sectioning */
 body{
     height:100vh;
     display:grid;
@@ -15,4 +15,17 @@ body{
 
 .content.section{
     background-color: gray;
+}
+
+/* dashboard section */
+.dashboard.section{
+    display:flex;
+    flex-direction: column;
+}
+
+.dashboard.section > div{
+    display:grid;
+    grid-template-columns: 30px 1fr;
+    grid-auto-rows: 50px;
+    color: white;
 }
