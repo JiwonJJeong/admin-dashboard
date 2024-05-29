@@ -63,3 +63,5 @@ body{
 .dashboard.section img{
     filter: invert(100%) sepia(14%) saturate(2%) hue-rotate(88deg) brightness(115%) contrast(100%);
 }
+
+/* header section*/
