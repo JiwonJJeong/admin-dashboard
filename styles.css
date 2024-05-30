@@ -1,7 +1,7 @@
 /* CSS stylesheet */
 * {
-    --content-background-color: gray;
-    --dashboard-background-color: blue;
+    --content-background-color: #e2e8f0;
+    --dashboard-background-color: #0ea5e9;
     --card-color:white;
     --card-border-color:orange;
     --content-font-color: rgb(75,75,75);
