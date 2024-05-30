@@ -87,13 +87,15 @@ body {
 
     /* top side of header */
     & .header-top {
-        display: grid;
-        grid-template-columns: 3fr minmax(200px, 1fr);
+        display: flex;
+        justify-content: space-between;
         gap: 30px;
     }
 
     /* topleft side of header */
     & .search-bar {
+        flex: 1 1 100px;
+        max-width: 800px;
         display: grid;
         grid-template-columns: 25px 1fr;
         align-items: center;
@@ -115,10 +117,10 @@ body {
     /* topright side of header */
     & .profile-area {
         display: grid;
-        grid-template-columns: 20px 40px minmax(125px, 1fr);
-        justify-content: center;
+        grid-template-columns: 20px 40px minmax(max-content,1fr);
+        justify-content: end;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
     }
 
     & .profile-area img {
