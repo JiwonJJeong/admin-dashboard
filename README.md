@@ -4,9 +4,10 @@ The Odin Project project to create a full dashboard design. Aim is to lean on us
 Skills used:
 - Manage files with git, GitHub, and the command line.
 - Use CSS Grid to layout HTML elements and add some responsiveness
+- Combine Grid and Flexbox appropriately for different layout goals
 - Practice complex CSS selectors and plan HTML classes to reduce code redundancy
 - Style form input and submit button elements
-- Research specific CSS properties like border-radius and box-shadow to achieve a clean finish
+- Research specific CSS properties like z-index to achieve a clean finish
 - Use CSS custom properties to quickly change color palettes across site
 
 
