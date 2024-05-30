@@ -79,9 +79,11 @@ body {
 
 /* header section*/
 .header.section {
-    margin: 10px 20px;
+    padding: 10px 20px;
     display: grid;
     grid-template-rows: 2fr 3fr;
+    box-shadow: 2px 2px 5px rgb(155, 155, 155);
+    z-index: 10;
 
     /* top side of header */
     & .header-top {
@@ -201,6 +203,11 @@ body {
     grid-template-rows: 1fr 1fr;
     padding:13px;
     gap: 15px;
+
+    /* add shadow to all cards in content section */
+    & .card{
+        box-shadow: 2px 2px 5px rgb(155, 155, 155);
+    }
 
     /* project section area */
     & .projects.section{
