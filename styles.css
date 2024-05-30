@@ -70,6 +70,7 @@ body{
 /* header section*/
 .header.section{
     margin: 10px;
+    margin-left: 20px;
     & .header-top{
         display:grid;
         grid-template-columns: 3fr minmax(200px, 1fr);
@@ -79,7 +80,7 @@ body{
     /* topleft side of header */
     & .search-bar{
         display:grid;
-        grid-template-columns: 40px 1fr;
+        grid-template-columns: 25px 1fr;
         align-items: center;
         gap: 10px;
     }
@@ -91,7 +92,7 @@ body{
     & input[type=text]{
         width: 100%;
         padding: 6px 3px;
-        border-radius: 10px;
+        border-radius: 15px;
         background-color: var(--content-background-color);
         border:none;
     }
@@ -99,7 +100,7 @@ body{
     /* topright side of header */
     & .profile-area{
         display:grid;
-        grid-template-columns: 30px 30px 1fr;
+        grid-template-columns: 20px 40px minmax(125px,1fr);
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -109,4 +110,15 @@ body{
         height: auto;
     }
 
+    & .profile-area img.icon{
+        background-color: rgb(122, 255, 200);
+        border-radius: 100%;
+        height: auto;
+        width: 100%;
+        aspect-ratio: 319/329;
+    }
+
+    & .profile-area p{
+        font-weight: bold;
+    }
 }
