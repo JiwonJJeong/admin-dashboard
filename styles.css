@@ -1,6 +1,7 @@
 /* CSS stylesheet */
 * {
     --content-background-color: gray;
+    --dashboard-background-color: blue;
     margin:0;
     padding:0;
 }
@@ -18,11 +19,11 @@ body {
 .dashboard.section {
     padding:12px;
     grid-row: 1/3;
-    background-color: blue;
+    background-color: var(--dashboard-background-color);
 }
 
 .content.section {
-    background-color: gray;
+    background-color: var(--content-background-color);
 }
 
 /* dashboard section */
@@ -169,5 +170,23 @@ body {
         width: auto;
         aspect-ratio: 1/1;
         grid-row: 1/3;
+    }
+
+    /* bottomright of header */
+    & .upload-button-area{
+        justify-self: end;
+        display:grid;
+        grid-template-columns: repeat(3, 70px);
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+    & .upload-button-area button{
+        background-color: var(--dashboard-background-color);
+        color: white;
+        border-radius: 25px;
+        border: none;
+        padding: 7px;
     }
 }
